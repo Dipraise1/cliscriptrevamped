@@ -11,7 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Network settings
-export const NETWORK = process.env.SOLANA_NETWORK || 'devnet';
+export const NETWORK = process.env.SOLANA_NETWORK || 'mainnet-beta';
 export const RPC_URL = process.env.SOLANA_RPC_URL || 
   (NETWORK === 'mainnet-beta' ? 'https://api.mainnet-beta.solana.com' : 
    NETWORK === 'testnet' ? 'https://api.testnet.solana.com' : 
