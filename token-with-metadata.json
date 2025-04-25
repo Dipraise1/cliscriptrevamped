@@ -1,0 +1,8 @@
+{
+  "name": "Meta Token",
+  "symbol": "META",
+  "decimals": 9,
+  "initialSupply": 1000000,
+  "description": "A token with metadata created using the Solana Token Deployer",
+  "imageUrl": "https://solana.com/src/img/branding/solanaLogoMark.svg"
+} 

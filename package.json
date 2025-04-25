@@ -1,0 +1,61 @@
+{
+  "name": "solana-token-deployer",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool for creating and managing SPL tokens on Solana",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "solana-token": "./solana-token"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node index.js",
+    "list": "node index.js list",
+    "view": "node index.js view",
+    "simulate": "node index.js --simulate",
+    "install": "chmod +x install.sh && ./install.sh"
+  },
+  "keywords": [
+    "solana",
+    "spl-token",
+    "blockchain",
+    "cli",
+    "token",
+    "crypto",
+    "web3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@bundlr-network/client": "^0.11.17",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
+    "@metaplex-foundation/umi": "^0.8.10",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.8.10",
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.98.2",
+    "axios": "^1.9.0",
+    "bs58": "^6.0.0",
+    "chalk": "^5.4.1",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.5.0",
+    "form-data": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "mime-types": "^2.1.35",
+    "path": "^0.12.7",
+    "prompts": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/solana-token-deployer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/solana-token-deployer/issues"
+  },
+  "homepage": "https://github.com/yourusername/solana-token-deployer#readme"
+}

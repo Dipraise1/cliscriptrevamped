@@ -1,0 +1,7 @@
+{
+  "name": "Demo Token",
+  "symbol": "DEMO",
+  "decimals": 9,
+  "initialSupply": 1000000000,
+  "description": "A demonstration token created with Solana Token Deployer CLI"
+} 
